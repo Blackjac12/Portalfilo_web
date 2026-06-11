@@ -1,0 +1,18 @@
+.section { padding: 90px 2.5rem; }
+.inner { max-width: 1080px; margin: 0 auto; }
+.header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2.8rem; }
+.num { font-family: var(--font-mono); font-size: 11px; color: var(--accent); letter-spacing: 0.12em; }
+.title { font-size: 1.9rem; font-weight: 800; letter-spacing: -0.02em; }
+.line { flex: 1; height: 0.5px; background: var(--border); }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 0.5px solid var(--border); }
+.card {
+  background: var(--card); padding: 1.3rem; position: relative; overflow: hidden; transition: background 0.2s;
+}
+.card::before { content: ''; position: absolute; top: 0; left: 0; width: 2px; height: 0; background: var(--accent); transition: height 0.3s; }
+.card:hover { background: var(--bg3); }
+.card:hover::before { height: 100%; }
+.cat { font-family: var(--font-mono); font-size: 9px; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.6rem; }
+.name { font-size: 14px; font-weight: 700; margin-bottom: 0.3rem; }
+.desc { font-size: 11px; color: var(--muted); line-height: 1.65; }
+.barWrap { margin-top: 0.9rem; height: 2px; background: var(--border); }
+.bar { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); }

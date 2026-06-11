@@ -1,0 +1,23 @@
+.nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  height: 58px;
+  background: rgba(7,9,15,0.88);
+  backdrop-filter: blur(20px);
+  border-bottom: 0.5px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 2.5rem;
+  z-index: 800;
+}
+.logo {
+  font-family: var(--font-mono);
+  font-size: 12px; color: var(--accent); letter-spacing: 0.12em;
+}
+.logo span { color: var(--muted); }
+.links { display: flex; gap: 2rem; list-style: none; }
+.links a {
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--muted); text-decoration: none;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  transition: color 0.2s;
+}
+.links a:hover { color: var(--accent); }

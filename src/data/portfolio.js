@@ -1,5 +1,4 @@
 // Passafe screenshots
-import p0 from '../assets/projects/passafe/p0.png'
 import p1 from '../assets/projects/passafe/p1.png'
 import p2 from '../assets/projects/passafe/p2.png'
 import p3 from '../assets/projects/passafe/p3.png'
@@ -37,12 +36,11 @@ export const projects = [
       'Incluye módulos educativos sobre Normas ISO 27001/27002, Tips de Seguridad, Ingeniería Social y Normativa Colombiana. El backend gestiona la lógica de simulación, autenticación JWT y control de acceso por roles.',
     ],
     screenshots: [
-      { url: p0, caption: 'Términos y condiciones de uso' },
-      { url: p1, caption: 'Bienvenida — Módulos disponibles' },
-      { url: p2, caption: 'Simulador de Ataque' },
-      { url: p3, caption: 'Normas ISO 27001/27002' },
-      { url: p4, caption: 'Tips de Seguridad' },
-      { url: p5, caption: 'Ingeniería Social' },
+      { url: p1, caption: 'Términos y condiciones de uso' },
+      { url: p2, caption: 'Bienvenida — Módulos disponibles' },
+      { url: p3, caption: 'Simulador de Ataque' },
+      { url: p4, caption: 'Normas ISO 27001/27002' },
+      { url: p5, caption: 'Tips de Seguridad' },
     ],
     techDetail: [
       { cat: 'Backend', items: ['Java', 'Spring Boot', 'Spring Security', 'JWT', 'BCrypt'] },

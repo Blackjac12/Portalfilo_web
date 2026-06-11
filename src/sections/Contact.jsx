@@ -22,13 +22,13 @@ export default function Contact() {
                 <div className={styles.icon}>⬡</div>
                 github.com/Blackjac12
               </a>
-              <a href="mailto:tuemail@gmail.com" className={styles.clink}>
+              <a href="mailto:viennet18@outlook.es" className={styles.clink}>
                 <div className={styles.icon}>@</div>
-                tuemail@gmail.com
+                viennet18@outlook.es
               </a>
-              <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer" className={styles.clink}>
-                <div className={styles.icon}>in</div>
-                LinkedIn
+              <a href="tel:+573022655579" className={styles.clink}>
+                <div className={styles.icon}>☎</div>
+                (+57) 302 2655579
               </a>
             </div>
           </div>
